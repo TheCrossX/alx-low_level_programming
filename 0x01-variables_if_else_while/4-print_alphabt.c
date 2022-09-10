@@ -1,23 +1,18 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - start here
- * 
- * Return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 {
-	int ch;
+	char i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		else
-		{
-		}
+		if (i != 'q' && i != 'e')
+			putchar(i);
 	}
 	putchar('\n');
 	return (0);
