@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+1#include <stdio.h>
 
 /**
 * main - printthe number
 *
-*Betty love to nag
-*Nagging betty task 0
+* Betty love to nag
+* Nagging betty task 0
 * Return: 0
 */
 int main(void)
